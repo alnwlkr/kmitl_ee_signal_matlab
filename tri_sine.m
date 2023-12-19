@@ -1,0 +1,12 @@
+subplot(4,1,1);
+plot(ScopeData(:,1), ScopeData(:,2),ScopeData(:,1), ScopeData(:,3));
+axis([0 30e-3 -1.1 1.1]); grid on;
+subplot(4,1,2);
+plot(ScopeData(:,1), ScopeData(:,2));
+axis([0 30e-3 -1.1 1.1]); grid on;
+subplot(4,1,3);
+plot(ScopeData(:,1), ScopeData(:,2));
+axis([0 30e-3 -1.1 1.1]); grid on;
+subplot(4,1,4);
+plot(ScopeData(:,1), ScopeData(:,2));
+axis([0 30e-3 -1.1 1.1]); grid on;
